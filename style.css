@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #c2e8ee;
+  flex-direction: column;
+  font-family: "Bookman", serif;
+}
+
+h3 {
+  color: #659cbb;
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 400px;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid img {
+  width: 90px;
+  height: 90px;
+  border: 3px solid #659cbb;
+  cursor: pointer;
+  object-fit: cover;
+}
